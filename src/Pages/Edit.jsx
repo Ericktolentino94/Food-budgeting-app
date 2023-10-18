@@ -1,9 +1,10 @@
-import React from 'react';
+import FoodEditForm from "../Components/FoodEditForm"
 
 const Edit = () => {
     return (
         <div>
-            
+            <h2>Edit</h2>
+            <FoodEditForm />
         </div>
     );
 }

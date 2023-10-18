@@ -1,10 +1,11 @@
-import Foods from "../Components/Foods"
+import FoodNewForm from "../Components/FoodNewForm";
 
 const New = () => {
     return (
         <div className='Index'>
-            <h2>Index</h2>
-            <Foods />
+         
+           <h2>New</h2>
+           <FoodNewForm />
             
         </div>
     );

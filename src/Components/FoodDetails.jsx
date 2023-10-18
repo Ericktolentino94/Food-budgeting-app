@@ -9,7 +9,7 @@ function foodDetails() {
 
     useEffect(() => {
         try {
-            fetch(`${API}/food/${index}`)
+            fetch(`http://localhost:8484/foods/${index}`)
                 .then(response => response.json())
                 .then(food => {
                     setFood(food)
@@ -20,7 +20,11 @@ function foodDetails() {
 
     return (
         <div>
-            <h3>{food.item_name}</h3>
+            <h3>Item Name: {food.item_name}</h3>
+            <h4>Amount: {food.amount}</h4>
+            <h4>Date: {food.date}</h4>
+            <h4>From: {food.from}</h4>
+            <h4>Category:{food.category}</h4>
         </div>
     )
 }

@@ -4,6 +4,10 @@ import './App.css'
 import Home from "./pages/Home";
 import Index from "./pages/Index";
 import Show from "./pages/Show";
+import New from "./pages/New";
+import Edit from "./pages/Edit";
+
+import NavBar from "./Components/NavBar";
 
 function App() {
   
@@ -11,11 +15,14 @@ function App() {
     <>
       <div className="App">
         <Router>
+          <NavBar />
           <main>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/foods" element={<Index />}/>
-              <Route path="/food/:index" element={<Show />} />
+              <Route path="/foods/new" element={<New/>} />
+              <Route path="/foods/:index" element={<Show />} />
+              <Route path="/foods/:index/edit" element={<Edit />} />
             </Routes>
           </main>
         </Router>
