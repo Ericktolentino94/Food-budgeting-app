@@ -2,7 +2,7 @@ import FoodDetails from "../Components/FoodDetails"
 
 const Show = () => {
     return (
-        <div className="Show">
+        <div>
             <FoodDetails />
             
         </div>

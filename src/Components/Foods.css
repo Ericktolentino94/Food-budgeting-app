@@ -1,0 +1,39 @@
+/* Foods.css */
+
+/* Greenish for totalSpend > 100 */
+
+.Foods{
+    display: flex;
+    flex-direction: column;
+}
+.total-green {
+    color: green;
+  }
+  
+  /* Yellowish for totalSpend between 0 and 100 */
+  .total-yellow {
+    color: yellow;
+  }
+  
+  /* Reddish for totalSpend < 0 */
+  .total-red {
+    color: red;
+  }
+  
+  h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .Row {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+
+  .table {
+    margin: 20px;
+  }

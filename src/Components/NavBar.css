@@ -1,0 +1,41 @@
+nav {
+    background-color: #0b4f8a; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px 0; /* Padding at the top and bottom */
+  }
+  
+  h1 {
+    margin: 0; /* Remove margin to align text with the top of the nav bar */
+    font-size: 24px; /* Font size for the title */
+  }
+  
+  h1 a {
+    text-decoration: none; /* Remove underlines from links */
+    color: rgb(188, 208, 39); /* Text color for the link */
+  }
+  
+  button {
+    background-color: #4CAF50; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    padding: 10px 20px; /* Button padding */
+    margin-top: 10px; /* Add margin to separate the button from the title */
+  }
+  
+  button a {
+    background-color: #4CAF50; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    margin-top: 10px;
+  }
+  
+  /* Style the button on hover */
+  button:hover {
+    background-color: #45a049;
+    cursor: pointer; /* Change cursor to a hand icon on hover */
+  }
+  
+  Nav {
+    display: flex;
+    justify-content: space-around;
+  }

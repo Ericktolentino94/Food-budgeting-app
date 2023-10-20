@@ -1,0 +1,35 @@
+/* Food.css */
+
+/* Style for the entire table row */
+.food-row {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Style for the food name link */
+  .food-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Style for the delete button */
+  .delete-button {
+    background-color: #ff5555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Style for the edit link */
+  .edit-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  

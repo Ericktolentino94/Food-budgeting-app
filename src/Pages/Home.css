@@ -1,0 +1,12 @@
+.Home {
+    background-image: url('https://images.rawpixel.com/image_1300/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4MTM2OTgxMy1pbWFnZS1rd3Z4eHA5MS5qcGc.jpg');
+    background-size: cover; /* Scale the image to cover the entire container */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-position: center center; /* Center the image horizontally and vertically */
+    color: #fff; /* Text color on top of the background image */
+    text-align: center; /* Center the text content */
+    padding: 100px; /* Add padding to center the content */
+    height: 100vh; /* Set the height to the viewport height for a full-screen effect */
+    box-sizing: border-box; /* Include padding in the height calculation */
+  }
+  

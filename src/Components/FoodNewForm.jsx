@@ -8,7 +8,7 @@ function FoodNewForm() {
     amount: "",
     date: "",
     from: "",
-    category: ""
+    category: "",
   });
 
   const navigate = useNavigate();
@@ -22,8 +22,8 @@ function FoodNewForm() {
       method: "POST",
       body: JSON.stringify(food),
       headers: {
-        "Content-Type": "application/json" 
-      }
+        "Content-Type": "application/json",
+      },
     };
 
     fetch(`${API}/foods`, httpOptions)
@@ -40,55 +40,74 @@ function FoodNewForm() {
   };
 
   return (
-    <div className="New">
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="item_name">Name</label>
-        <input
-          id="item_name"
-          value={food.item_name}
-          type="text"
-          onChange={handleTextChange}
-          placeholder="Name of food"
-          required
-        />
-        <label htmlFor="amount">Amount</label>
-        <input
-          id="amount"
-          value={food.amount}
-          type="text"
-          onChange={handleTextChange}
-          placeholder="Amount"
-          required
-        />
-        <label htmlFor="date">Date</label>
-        <input
-          id="date"
-          value={food.date}
-          type="text"
-          onChange={handleTextChange}
-          placeholder="Date"
-          required
-        />
-        <label htmlFor="from">From</label>
-        <input
-          id="from"
-          value={food.from}
-          type="text"
-          onChange={handleTextChange}
-          placeholder="Source"
-          required
-        />
-        <label htmlFor="category">Category</label>
-        <input
-          id="category"
-          value={food.category}
-          type="text"
-          onChange={handleTextChange}
-          placeholder="Category"
-          required
-        />
-        <button type="submit">Add Food</button>
-      </form>
+    <div className="container">
+      <div className="New">
+        <form onSubmit={handleSubmit}>
+          <div className="form-group">
+            <label htmlFor="item_name">Name</label>
+            <input
+              id="item_name"
+              value={food.item_name}
+              type="text"
+              onChange={handleTextChange}
+              className="form-control"
+              placeholder="Name of food"
+              required
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="amount">Amount</label>
+            <input
+              id="amount"
+              value={food.amount}
+              type="number"
+              onChange={handleTextChange}
+              className="form-control"
+              placeholder="Amount"
+              required
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="date">Date</label>
+            <input
+              id="date"
+              value={food.date}
+              type="date"
+              onChange={handleTextChange}
+              className="form-control"
+              placeholder="Date"
+              required
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="from">From</label>
+            <input
+              id="from"
+              value={food.from}
+              type="text"
+              onChange={handleTextChange}
+              className="form-control"
+              placeholder="Source"
+              required
+            />
+          </div>
+          <div className="form-group">
+            <label htmlFor="category">Category</label>
+            <input
+              id="category"
+              value={food.category}
+              type="text"
+              onChange={handleTextChange}
+              className="form-control"
+              placeholder="Category"
+              required
+            />
+          </div>
+          <button type="submit" className="btn btn-primary">
+            Add Food
+          </button>
+        </form>
+      </div>
     </div>
   );
 }
