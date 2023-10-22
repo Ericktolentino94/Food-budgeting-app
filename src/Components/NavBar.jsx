@@ -11,6 +11,9 @@ export default function NavBar() {
         <button>
           <Link to="/foods/new">New Food</Link>
         </button>
+        <h1>
+            <Link to="/">Dine on a Dime</Link>
+        </h1>
       </nav>
     </div>
   );

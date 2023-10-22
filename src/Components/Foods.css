@@ -6,17 +6,17 @@
     display: flex;
     flex-direction: column;
 }
-.total-green {
+.text-total-green {
     color: green;
   }
   
   /* Yellowish for totalSpend between 0 and 100 */
-  .total-yellow {
+  .text-total-yellow {
     color: yellow;
   }
   
   /* Reddish for totalSpend < 0 */
-  .total-red {
+  .text-total-red {
     color: red;
   }
   
