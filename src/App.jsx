@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
 
 import Home from "./Pages/Home";
-import Index from "./pages/Index";
+import Index from "./Pages/Index";
 import Show from "./Pages/Show";
 import New from "./pages/New";
 import Edit from "./pages/Edit";
