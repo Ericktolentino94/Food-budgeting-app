@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
 
-import Home from "./Pages/Home";
-import Index from "./Pages/Index";
-import Show from "./Pages/Show";
-import New from "./pages/New";
-import Edit from "./pages/Edit";
-import FourOFour from "./pages/FourOFour";
+import Home from "../src/Pages/Home";
+import Index from "../src/Pages/Index";
+import Show from "../src/Pages/Show";
+import New from "../src/Pages/New";
+import Edit from "../src/Pages/Edit";
+import FourOFour from "../src/Pages/FourOFour";
 
 import NavBar from "./Components/NavBar";
 
