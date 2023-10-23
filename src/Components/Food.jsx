@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import './Food.css'; // Import the CSS file
-const API = "https://budget-app-server-0ahv.onrender.com/"
+const API = "https://budget-app-server-0ahv.onrender.com"
 
 function Food({ food, index }) {
   let navigate = useNavigate();

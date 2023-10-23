@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Food from "../Components/Food";
 import './Foods.css'; // Import the CSS file
-const API = "https://budget-app-server-0ahv.onrender.com/"
+const API = "https://budget-app-server-0ahv.onrender.com"
 import 'bootstrap/dist/css/bootstrap.css';
 
 function Foods() {

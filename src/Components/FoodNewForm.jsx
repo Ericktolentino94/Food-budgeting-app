@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useParams, useNavigate } from "react-router-dom";
-const API = "https://budget-app-server-0ahv.onrender.com/"
+const API = "https://budget-app-server-0ahv.onrender.com"
 
 function FoodNewForm() {
   const [food, setFood] = useState({

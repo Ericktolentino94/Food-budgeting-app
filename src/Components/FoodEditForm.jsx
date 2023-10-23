@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-const API = "https://budget-app-server-0ahv.onrender.com/";
+const API = "https://budget-app-server-0ahv.onrender.com";
 
 function FoodEditForm() {
     let { index } = useParams();
