@@ -3,7 +3,7 @@ import './App.css'
 
 import Home from "./Pages/Home";
 import Index from "./pages/Index";
-import Show from "./pages/Show";
+import Show from "./Pages/Show";
 import New from "./pages/New";
 import Edit from "./pages/Edit";
 import FourOFour from "./pages/FourOFour";
