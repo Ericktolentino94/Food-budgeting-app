@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import './Food.css'; // Import the CSS file
-const API = import.meta.env.VITE_BASE_URL;
+const API = "http://localhost:8484"
 
 function Food({ food, index }) {
   let navigate = useNavigate();
