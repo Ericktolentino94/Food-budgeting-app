@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-const API = import.meta.env.VITE_BASE_URL;
+const API = "http://localhost:8484";
 
 function FoodEditForm() {
     let { index } = useParams();

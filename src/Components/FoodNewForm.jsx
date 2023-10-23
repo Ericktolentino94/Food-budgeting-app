@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useParams, useNavigate } from "react-router-dom";
-const API = import.meta.env.VITE_BASE_URL;
+const API = "http://localhost:8484"
 
 function FoodNewForm() {
   const [food, setFood] = useState({

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Food from "../Components/Food";
 import './Foods.css'; // Import the CSS file
-const API = import.meta.env.VITE_BASE_URL;
+const API = "http://localhost:8484"
 import 'bootstrap/dist/css/bootstrap.css';
 
 function Foods() {
